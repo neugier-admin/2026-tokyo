@@ -1,0 +1,310 @@
+{
+  "updated": "2026-09-07",
+  "source": "local html + follow/recover",
+  "count": 20,
+  "coupons": [
+    {
+      "name": "Donki唐吉訶德",
+      "discount": "滿額免稅，最高再折7%",
+      "expiry": "無期限",
+      "expired": false,
+      "tags": [
+        "綜合"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-9",
+      "final_url": "https://japanportal.donki-global.com/coupon/?ptcd=0076003303",
+      "kind": "page",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "Bic Camera",
+      "discount": "滿額免稅，最高再折7%",
+      "expiry": "2026/10/31",
+      "expired": false,
+      "tags": [
+        "電器"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-1",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/BicCamera_260820.png",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "SALONIA",
+      "discount": "購買指定商品，享有95折優惠 （需與 Bic Camera優惠券 一同使用）",
+      "expiry": "2026/11/30",
+      "expired": false,
+      "tags": [
+        "藥妝"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-19",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/salonia_260820.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "愛電王Edion",
+      "discount": "滿額免稅，最高再折7%",
+      "expiry": "2026/12/31",
+      "expired": false,
+      "tags": [
+        "電器"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-10",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/edion2025.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "Laox",
+      "discount": "滿額免稅，再折8%",
+      "expiry": "2026/10/31",
+      "expired": false,
+      "tags": [
+        "電器"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-15",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/LAOX_2026.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "成田機場免稅店",
+      "discount": "享有95折優惠",
+      "expiry": "2027/3/31",
+      "expired": false,
+      "tags": [
+        "機場",
+        "免稅"
+      ],
+      "region": "東京",
+      "link": "https://funtime.tw/c/blog-68172-16",
+      "final_url": "https://duty-free-japan.jp/narita/ta/content/coupon2833-30.html",
+      "kind": "page",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "成田/羽田機場 免稅商品線上訂",
+      "discount": "享有95折優惠",
+      "expiry": "無期限",
+      "expired": false,
+      "tags": [
+        "機場",
+        "免稅"
+      ],
+      "region": "東京",
+      "link": "https://funtime.tw/c/blog-68172-17",
+      "final_url": "https://duty-free-japan.jp/qrposter/tc/?agentid=123",
+      "kind": "page",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "SUNDRUG",
+      "discount": "滿額免稅，再享3~7%折扣",
+      "expiry": "無期限",
+      "expired": false,
+      "tags": [
+        "藥妝"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/b2s50T",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/sundrug%20_funtime.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "鶴羽藥妝",
+      "discount": "滿額免稅，最高享免稅+7%優惠",
+      "expiry": "2027/12/31",
+      "expired": false,
+      "tags": [
+        "藥妝"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-11",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/tsuruha2026.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "札幌藥妝",
+      "discount": "滿額免稅，最高享免稅+7%優惠",
+      "expiry": "無期限",
+      "expired": false,
+      "tags": [
+        "藥妝"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-13",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/2026sapporo.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "cosmos",
+      "discount": "滿額免稅，最高享免稅+9%優惠",
+      "expiry": "2026/12/31",
+      "expired": false,
+      "tags": [
+        "藥妝"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/DsrcXF",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/cosmos2026.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "DRUG ELEVEN",
+      "discount": "滿額免稅，最高享免稅+7%優惠",
+      "expiry": "2027/2/28",
+      "expired": false,
+      "tags": [
+        "藥妝"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-22",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/DRUGELEVEN_2027.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "小田急百貨",
+      "discount": "消費滿1千日圓(含稅)，可享6%優惠",
+      "expiry": "2028/3/31",
+      "expired": false,
+      "tags": [
+        "百貨"
+      ],
+      "region": "東京",
+      "link": "https://funtime.tw/c/blog-68172-12",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/odakyu.png",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "近鐵百貨店",
+      "discount": "滿2千日圓(不含稅)，可享有95折優惠",
+      "expiry": "2026/12/31",
+      "expired": false,
+      "tags": [
+        "百貨"
+      ],
+      "region": "關西",
+      "link": "https://funtime.tw/c/blog-68172-14",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/kintetsu2026.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "銀座樂天免稅店",
+      "discount": "滿1萬日圓，折1千日圓 滿2萬日圓，折2千日圓",
+      "expiry": "2027/1/31",
+      "expired": false,
+      "tags": [
+        "機場",
+        "免稅"
+      ],
+      "region": "東京",
+      "link": "https://funtime.tw/c/blog-68172-7",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/Lottedutyfree_GINZA_FunTime2026.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "大丸松坂屋",
+      "discount": "單筆消費含稅滿3千日圓，享95折",
+      "expiry": "2026/8/31",
+      "expired": true,
+      "tags": [
+        "百貨"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-6",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/daimaru_250820.pdf",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "西武百貨",
+      "discount": "消費滿1千日圓，享95折",
+      "expiry": "2027/12/31",
+      "expired": false,
+      "tags": [
+        "百貨"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-2",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/seibu2027.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "京王百貨",
+      "discount": "單筆消費滿3千日圓，享95折",
+      "expiry": "2027/3/31",
+      "expired": false,
+      "tags": [
+        "百貨"
+      ],
+      "region": "東京",
+      "link": "https://funtime.tw/c/blog-68172-3",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/Keio_2026.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    },
+    {
+      "name": "Alpen",
+      "discount": "免稅再折5%",
+      "expiry": "2026/12/31",
+      "expired": false,
+      "tags": [
+        "運動"
+      ],
+      "region": null,
+      "link": "https://www.funtime.com.tw/travelstore/coupon/2026Alpen.png",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/2026Alpen.png",
+      "kind": "image",
+      "status": "from_html",
+      "error_message": null
+    },
+    {
+      "name": "Victoria運動用品",
+      "discount": "免稅再折5%",
+      "expiry": "2026/12/31",
+      "expired": false,
+      "tags": [
+        "運動"
+      ],
+      "region": null,
+      "link": "https://funtime.tw/c/blog-68172-8",
+      "final_url": "https://www.funtime.com.tw/travelstore/coupon/FunTime_Victoria_202612.jpg",
+      "kind": "image",
+      "status": "recovered",
+      "error_message": null
+    }
+  ]
+}

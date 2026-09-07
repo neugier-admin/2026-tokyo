@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #070b14;
+  --color-bg-deep: #05080f;
+  --color-surface: #101828;
+  --color-surface-2: #182233;
+  --color-fg: #e8f4f2;
+  --color-muted: #8ba3ae;
+  --color-subtle: #5c7380;
+  --color-primary: #5eead4;
+  --color-primary-fg: #042f2e;
+  --color-accent: #7dd3fc;
+  --color-highlight: #fbbf24;
+  --color-danger: #f87171;
+  --color-ok: #34d399;
+  --color-border: #243044;
+  --color-glass: #d7f8f21f;
+  --color-glass-border: #e8f4f229;
+
+  --font-sans: "Noto Sans HK", "PingFang HK", "PingFang TC", "Noto Sans TC", "Hiragino Sans", "Microsoft JhengHei", system-ui, sans-serif;
+  --font-display: "Noto Sans HK", "PingFang HK", "PingFang TC", "Noto Sans TC", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+
+  --shadow-border: 0 0 0 1px rgba(232, 244, 242, 0.08);
+  --shadow-border-hover: 0 0 0 1px rgba(94, 234, 212, 0.28);
+  --shadow-glow: 0 12px 40px rgba(8, 20, 28, 0.45);
+}
+
+@layer base {
+  html {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    min-height: 100dvh;
+    font-family: var(--font-sans);
+    background-color: var(--color-bg);
+    background-image:
+      radial-gradient(ellipse 90% 55% at 8% -8%, rgba(45, 212, 191, 0.2), transparent 55%),
+      radial-gradient(ellipse 70% 45% at 96% 4%, rgba(56, 189, 248, 0.14), transparent 50%),
+      radial-gradient(ellipse 50% 28% at 50% 108%, rgba(45, 212, 191, 0.1), transparent 55%);
+    background-attachment: fixed;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: color-mix(in oklab, var(--color-surface) 78%, transparent);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    box-shadow: var(--shadow-border);
+  }
+
+  .glass-strong {
+    background: color-mix(in oklab, var(--color-surface) 88%, transparent);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    box-shadow: var(--shadow-border), var(--shadow-glow);
+  }
+
+  .aurora-line {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in oklab, var(--color-primary) 70%, transparent),
+      color-mix(in oklab, var(--color-accent) 70%, transparent),
+      transparent
+    );
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
