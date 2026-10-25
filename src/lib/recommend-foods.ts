@@ -4,7 +4,7 @@ import type { FoodRec } from "@/trip-data";
 const PROMPT = `你是日本旅遊美食顧問。只回 JSON array，不要 markdown、不要前言。
 必須剛好 3 間餐廳，欄位僅限：name, city, category, reason, mapsQuery, priceBand。
 reason 用繁體中文 1–2 句。priceBand 用日圓區間例如 "¥1,000–1,800"。
-行程：澳門出發（經香港機場 UO624）東京 2026-10-25 至 11-04，景點含淺草、押上、秋葉原、新宿、澀谷、豐洲 teamLab、有樂町 MAPPA、駒澤拉麵祭、池袋、幕張 Fan Fest、日光東照宮、鬼怒川、橫濱ぴあアリーナMM、東京駅伴手禮。
+行程：澳門出發（經香港機場 UO624）東京 2026-10-25 至 11-04。10/26 新宿、池袋；10/27 豐洲 teamLab、有樂町睇戲；10/28 明治神宮、原宿、上野 OS Drug、秋葉原；10/29 立川電影院、LaLaport 立川立飛、昭和記念公園、晚上澀谷；10/30 駒澤拉麵祭、池袋；幕張 Fan Fest；日光；鬼怒川；橫濱演唱會；11/04 有樂町 MAPPA 後東京駅手信再去成田。
 請推薦行程沿線、外國人友善、不必抽籤的店。`;
 
 function parseFoods(text: string): FoodRec[] {
