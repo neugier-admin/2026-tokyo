@@ -24,19 +24,20 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build project
-        run: npm run build
+        run: |
+          npm run build
+          ls -la
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ${{ hashFiles('dist/index.html') != '' && './dist' || './build' }}
 
   deploy:
     environment:
@@ -48,4 +49,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        
