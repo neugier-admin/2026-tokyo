@@ -58,7 +58,12 @@ type PlanKey = "A" | "B";
 const PLAN_STORAGE = "tokyo-aurora-plan-choice";
 const TAB_STORAGE = "tokyo-aurora-tab";
 const DAY_STORAGE = "tokyo-aurora-day";
-const TODAY_ISO = "2026-09-07";
+const TODAY_ISO = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Tokyo",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+}).format(new Date());
 
 function cn(...parts: Array<string | false | null | undefined>) {
   return parts.filter(Boolean).join(" ");
@@ -346,9 +351,9 @@ function ItineraryTab({
           {day.arrivalConstraint !== "無" ? <p>抵達限制：{day.arrivalConstraint}</p> : null}
           {day.departureConstraint !== "無" ? <p>離開限制：{day.departureConstraint}</p> : null}
         </div>
-        {countdown > 0 ? (
+        {day.date === TRIP.startDate && countdown > 0 ? (
           <p className="mt-3 text-xs text-primary">出發倒數 {countdown} 日</p>
-        ) : countdown === 0 ? (
+        ) : day.date === TRIP.startDate && countdown === 0 ? (
           <p className="mt-3 text-xs text-primary">今日出發</p>
         ) : null}
         {hasB ? (
